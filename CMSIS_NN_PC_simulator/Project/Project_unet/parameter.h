@@ -1,0 +1,219 @@
+// parameters
+
+/**********BLOCK1**********/
+#define B1_CONV1_IN_DIM_X 4096
+#define B1_CONV1_IN_DIM_Y 1
+#define B1_CONV1_IN_CH 1
+#define B1_CONV1_KER_DIM_X 9
+#define B1_CONV1_KER_DIM_Y 1
+#define B1_CONV1_PAD_X 0
+#define B1_CONV1_PAD_Y 0
+#define B1_CONV1_STRIDE_X 1
+#define B1_CONV1_STRIDE_Y 1
+#define B1_CONV1_OUT_DIM_X 4088
+#define B1_CONV1_OUT_DIM_Y 1
+#define B1_CONV1_OUT_CH 16
+
+
+#define B1_CONV1_RELU_OUT_CH 16
+#define B1_CONV1_RELU_OUT_DIM_X 4088
+#define B1_CONV1_RELU_OUT_DIM_Y 1
+
+#define B1_CONV2_IN_DIM_X 4088
+#define B1_CONV2_IN_DIM_Y 1
+#define B1_CONV2_IN_CH 16
+#define B1_CONV2_KER_DIM_X 9
+#define B1_CONV2_KER_DIM_Y 1
+#define B1_CONV2_PAD_X 0
+#define B1_CONV2_PAD_Y 0
+#define B1_CONV2_STRIDE_X 1
+#define B1_CONV2_STRIDE_Y 1
+#define B1_CONV2_OUT_DIM_X 4080
+#define B1_CONV2_OUT_DIM_Y 1
+#define B1_CONV2_OUT_CH 16
+
+#define B1_CONV2_RELU_OUT_CH 16
+#define B1_CONV2_RELU_OUT_DIM_X 4080
+#define B1_CONV2_RELU_OUT_DIM_Y 1
+
+#define B1_POOL_IN_DIM_X 4080
+#define B1_POOL_IN_DIM_Y 1
+#define B1_POOL_IN_CH 16
+#define B1_POOL_KER_DIM_X 16
+#define B1_POOL_KER_DIM_Y 1
+#define B1_POOL_PAD_X 0
+#define B1_POOL_PAD_Y 0
+#define B1_POOL_STRIDE_X 16 
+#define B1_POOL_STRIDE_Y 1
+#define B1_POOL_OUT_DIM_X 255
+#define B1_POOL_OUT_DIM_Y 1
+
+/**********BLOCK2**********/
+#define B2_CONV1_IN_DIM_X 255
+#define B2_CONV1_IN_DIM_Y 1
+#define B2_CONV1_IN_CH 16
+#define B2_CONV1_KER_DIM_X 3
+#define B2_CONV1_KER_DIM_Y 1
+#define B2_CONV1_PAD_X 0
+#define B2_CONV1_PAD_Y 0
+#define B2_CONV1_STRIDE_X 1
+#define B2_CONV1_STRIDE_Y 1
+#define B2_CONV1_OUT_DIM_X 253
+#define B2_CONV1_OUT_DIM_Y 1
+#define B2_CONV1_OUT_CH 32
+
+
+#define B2_CONV1_RELU_OUT_CH 32
+#define B2_CONV1_RELU_OUT_DIM_X 253
+#define B2_CONV1_RELU_OUT_DIM_Y 1
+
+#define B2_CONV2_IN_DIM_X 253
+#define B2_CONV2_IN_DIM_Y 1
+#define B2_CONV2_IN_CH 32
+#define B2_CONV2_KER_DIM_X 3
+#define B2_CONV2_KER_DIM_Y 1
+#define B2_CONV2_PAD_X 0
+#define B2_CONV2_PAD_Y 0
+#define B2_CONV2_STRIDE_X 1
+#define B2_CONV2_STRIDE_Y 1
+#define B2_CONV2_OUT_DIM_X 251
+#define B2_CONV2_OUT_DIM_Y 1
+#define B2_CONV2_OUT_CH 32
+
+#define B2_CONV2_RELU_OUT_CH 32
+#define B2_CONV2_RELU_OUT_DIM_X 251
+#define B2_CONV2_RELU_OUT_DIM_Y 1
+
+#define B2_POOL_IN_DIM_X 251
+#define B2_POOL_IN_DIM_Y 1
+#define B2_POOL_IN_CH 32
+#define B2_POOL_KER_DIM_X 4
+#define B2_POOL_KER_DIM_Y 1
+#define B2_POOL_PAD_X 0
+#define B2_POOL_PAD_Y 0
+#define B2_POOL_STRIDE_X 4
+#define B2_POOL_STRIDE_Y 1
+#define B2_POOL_OUT_DIM_X 62
+#define B2_POOL_OUT_DIM_Y 1
+
+/**********BLOCK3**********/
+#define B3_CONV1_IN_DIM_X 62
+#define B3_CONV1_IN_DIM_Y 1
+#define B3_CONV1_IN_CH 32
+#define B3_CONV1_KER_DIM_X 3
+#define B3_CONV1_KER_DIM_Y 1
+#define B3_CONV1_PAD_X 0
+#define B3_CONV1_PAD_Y 0
+#define B3_CONV1_STRIDE_X 1
+#define B3_CONV1_STRIDE_Y 1
+#define B3_CONV1_OUT_DIM_X 60
+#define B3_CONV1_OUT_DIM_Y 1
+#define B3_CONV1_OUT_CH 32
+
+
+#define B3_CONV1_RELU_OUT_CH 32
+#define B3_CONV1_RELU_OUT_DIM_X 60
+#define B3_CONV1_RELU_OUT_DIM_Y 1
+
+#define B3_CONV2_IN_DIM_X 60
+#define B3_CONV2_IN_DIM_Y 1
+#define B3_CONV2_IN_CH 32
+#define B3_CONV2_KER_DIM_X 3
+#define B3_CONV2_KER_DIM_Y 1
+#define B3_CONV2_PAD_X 0
+#define B3_CONV2_PAD_Y 0
+#define B3_CONV2_STRIDE_X 1
+#define B3_CONV2_STRIDE_Y 1
+#define B3_CONV2_OUT_DIM_X 58
+#define B3_CONV2_OUT_DIM_Y 1
+#define B3_CONV2_OUT_CH 32
+
+#define B3_CONV2_RELU_OUT_CH 32
+#define B3_CONV2_RELU_OUT_DIM_X 58
+#define B3_CONV2_RELU_OUT_DIM_Y 1
+
+#define B3_POOL_IN_DIM_X 58
+#define B3_POOL_IN_DIM_Y 1
+#define B3_POOL_IN_CH 32
+#define B3_POOL_KER_DIM_X 4
+#define B3_POOL_KER_DIM_Y 1
+#define B3_POOL_PAD_X 0
+#define B3_POOL_PAD_Y 0
+#define B3_POOL_STRIDE_X 4
+#define B3_POOL_STRIDE_Y 1
+#define B3_POOL_OUT_DIM_X 14
+#define B3_POOL_OUT_DIM_Y 1
+
+/**********BLOCK4**********/
+#define B4_CONV1_IN_DIM_X 14
+#define B4_CONV1_IN_DIM_Y 1
+#define B4_CONV1_IN_CH 32
+#define B4_CONV1_KER_DIM_X 3
+#define B4_CONV1_KER_DIM_Y 1
+#define B4_CONV1_PAD_X 0
+#define B4_CONV1_PAD_Y 0
+#define B4_CONV1_STRIDE_X 1
+#define B4_CONV1_STRIDE_Y 1
+#define B4_CONV1_OUT_DIM_X 12
+#define B4_CONV1_OUT_DIM_Y 1
+#define B4_CONV1_OUT_CH 64
+
+
+#define B4_CONV1_RELU_OUT_CH 64
+#define B4_CONV1_RELU_OUT_DIM_X 12
+#define B4_CONV1_RELU_OUT_DIM_Y 1
+
+#define B4_CONV2_IN_DIM_X 12
+#define B4_CONV2_IN_DIM_Y 1
+#define B4_CONV2_IN_CH 64
+#define B4_CONV2_KER_DIM_X 3
+#define B4_CONV2_KER_DIM_Y 1
+#define B4_CONV2_PAD_X 0
+#define B4_CONV2_PAD_Y 0
+#define B4_CONV2_STRIDE_X 1
+#define B4_CONV2_STRIDE_Y 1
+#define B4_CONV2_OUT_DIM_X 10
+#define B4_CONV2_OUT_DIM_Y 1
+#define B4_CONV2_OUT_CH 64
+
+#define B4_CONV2_RELU_OUT_CH 64
+#define B4_CONV2_RELU_OUT_DIM_X 10
+#define B4_CONV2_RELU_OUT_DIM_Y 1
+
+#define B4_POOL_IN_DIM_X 10
+#define B4_POOL_IN_DIM_Y 1
+#define B4_POOL_IN_CH 64
+#define B4_POOL_KER_DIM_X 4
+#define B4_POOL_KER_DIM_Y 1
+#define B4_POOL_PAD_X 0
+#define B4_POOL_PAD_Y 0
+#define B4_POOL_STRIDE_X 4
+#define B4_POOL_STRIDE_Y 1
+#define B4_POOL_OUT_DIM_X 2
+#define B4_POOL_OUT_DIM_Y 1
+
+
+#define AVPOOL_IN_DIM_X 2
+#define AVPOOL_IN_DIM_Y 1
+#define AVPOOL_IN_CH 64
+#define AVPOOL_KER_DIM_X 2
+#define AVPOOL_KER_DIM_Y 1
+#define AVPOOL_PAD_X 0
+#define AVPOOL_PAD_Y 0
+#define AVPOOL_STRIDE_X 2
+#define AVPOOL_STRIDE_Y 1
+#define AVPOOL_OUT_DIM_X 1
+#define AVPOOL_OUT_DIM_Y 1
+
+#define FC1_IN_DIM 64
+#define FC1_OUT_DIM 64
+
+#define FC2_IN_DIM 64
+#define FC2_OUT_DIM 512
+
+#define FC3_IN_DIM 512
+#define FC3_OUT_DIM 1
+
+
+
+
