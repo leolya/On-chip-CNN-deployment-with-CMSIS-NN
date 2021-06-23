@@ -1,6 +1,12 @@
 # On-chip-CNN-deployment-with-CMSIS-NN
 
-## 16 bit per-tensor quantization in CMSIS NN 
+1. check out official tutorial and documentations
+2. check out `Background_Knowledge.ipynb`
+3. check out `Quantization.ipynb`
+4. run `CMSIS_NN_PC_simulator` in Visual Studio to verify the results
+5. deploy the model on Cortex M4 boards
+
+## Per-tensor quantization in CMSIS NN (official tutorial)
 
 https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/deploying-convolutional-neural-network-on-cortex-m-with-cmsis-nn
 
