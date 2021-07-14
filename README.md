@@ -24,3 +24,7 @@ https://github.com/ARM-software/CMSIS_5
 2. 32bit overflow. ('16 bit weight * 16 bit tensor + 16 bit bias' can exceed the limit of int 32)
 3. how to generate the code automatically (https://github.com/majianjia/nnom)
 
+## STFT 
+
+`ARM_STFT_ISTFT.c`: STFT and ISTFT for ARM boards (same with libosa's implementation)
+
